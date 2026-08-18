@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="service-name">LEEJI DEV</h1>
+      <nav aria-label="주요 메뉴">
+        <a href="goal.html">목표</a>
+      </nav>
+    </header>
+    <main>
+      <section class="introduce-section margin-align-center">
+        <h2 class="title text-align-center">자기 소개</h2>
+        <hr />
+        <div>
+          <section class="margin">
+            <h3 class="sub-title">기본 정보</h3>
+            <div class="flex-container">
+              <img
+                src="./images/profile.jpg"
+                alt="이지현 프로필 사진"
+                class="profile-img"
+              />
+              <table>
+                <tr>
+                  <th scope="col">항목</th>
+                  <th scope="col">내용</th>
+                </tr>
+                <tr>
+                  <th scope="row">이름</th>
+                  <td>이지현</td>
+                </tr>
+                <tr>
+                  <th scope="row">MBTI</th>
+                  <td>ENTP</td>
+                </tr>
+                <tr>
+                  <th scope="row">혈액형</th>
+                  <td>AB</td>
+                </tr>
+              </table>
+            </div>
+          </section>
+          <section class="margin">
+            <h3 class="sub-title">소개</h3>
+            <p class="desc">
+              강아지와 햄스터를 반려 중인
+              <span class="highlight">동물 러버</span> 집순이에요😊 몰입 중인게
+              있을 때는 집중하느라 시간 가는 줄 모르지만, 막상 나가 놀면 잘 노는
+              <span class="highlight">ENTP</span>입니다!
+            </p>
+            <p class="desc">
+              웹 백엔드 개발 경험이 있긴 하지만 1인 개발자로서 전반적인 개발 및
+              서비스 오픈에 도움을 받기 위해 교육에 참여했어요. 같이 으쌰으쌰
+              해서 원하는 바 이뤘으면 좋겠어요. 앞으로 잘 부탁드려요!
+            </p>
+          </section>
+        </div>
+        <section class="margin">
+          <h3 class="sub-title">관심 분야</h3>
+          <ul>
+            <li>웹 개발</li>
+            <li>AI</li>
+            <li>심리학</li>
+            <li>마케팅</li>
+          </ul>
+        </section>
+        <section class="margin">
+          <h3 class="sub-title">취미 또는 좋아하는 것</h3>
+          <ul>
+            <li>털복숭이 동물</li>
+            <li>영화 보기</li>
+            <li>음악 듣기</li>
+          </ul>
+        </section>
+      </section>
+      <section class="learning-section margin-align-center">
+        <h2 class="title text-align-center">학습 정보</h2>
+        <hr />
+        <div class="flex-container">
+          <section class="desired-learnings">
+            <h3 class="title">앞으로 배우고 싶은 것</h3>
+            <ul>
+              <li>End to End 개발</li>
+              <li>개발/사업 실무 팁</li>
+              <li>마케팅</li>
+            </ul>
+          </section>
+          <article class="margin">
+            <h3 class="title">참고하고 싶은 웹사이트</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://ozcoding-publicdoc.notion.site/1-1eccaf5650aa8087b068e9def8c8dd7d"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >OZ 사전학습</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLa1Goa832tz0R50ua8hWnk5aP_nDmlL69"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >OZ 세미나</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://ozcodingschool.com/contents"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >OZ 무료 콘텐츠</a
+                >
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <section class="contact-section">
+        <h2 class="title text-align-center">문의</h2>
+        <form class="desc contact-form">
+          <div>
+            <label for="name">이름</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              class="form-text"
+            />
+          </div>
+          <div>
+            <label for="email">이메일</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              class="form-text"
+            />
+          </div>
+          <div>
+            <label for="inquiry">문의 내용</label>
+            <textarea
+              id="inquiry"
+              name="inquiry"
+              required
+              rows="10"
+              cols="50"
+              placeholder="문의 내용을 작성하세요."
+              class="form-text"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">제출</button>
+        </form>
+      </section>
+      <button class="btn floating-btn">
+        <img
+          src="./images/contact.jpg"
+          alt="문의 버튼 이미지"
+          class="floating-btn-img"
+        />
+      </button>
+    </main>
+    <footer class="padding">
+      <p>© 2026 leeji</p>
+      <a
+        href="https://github.com/leejidev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="./images/github-logo.svg"
+          alt="Github 로고 이미지"
+          class="logo"
+        />
+      </a>
+    </footer>
+  </body>
+</html>
